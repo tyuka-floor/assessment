@@ -126,18 +126,18 @@ function assessment(userName){
 
 
 
-console.assert(
-  assessment('太郎') ===
-  '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
-  '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
-);
+//console.assert(
+  //assessment('太郎') ===
+  //'太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
+  //'診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
+//);
 
 //テストコード
-console.assert(
-  assessment('太郎') ===
-  assessment('jirou'),
-  '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
-);
+//console.assert(
+  //assessment('太郎') ===
+  //assessment('jirou'),
+  //'診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
+//);
 //console.log(assessment('太郎'));
 //console.log(assessment('次郎'));
 //console.log(assessment('太郎'));
